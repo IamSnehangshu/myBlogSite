@@ -32,3 +32,26 @@
     background-color: var(--primary-color);
     color: ghostwhite;
 }
+.articlebox{
+    padding: 10px 5px;
+}
+.articlebox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.articlebox h1{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.viewButton{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: ghostwhite;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}

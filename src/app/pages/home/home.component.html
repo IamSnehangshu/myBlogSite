@@ -4,3 +4,15 @@
         <a routerLink="articles"><i class="bi bi-arrow-right"></i>Read More</a>
     </div>
 </div>
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let post of postsData">
+            <div class="articlebox">
+                <img src="{{post.postBackground}}"/>
+                <h1>{{post.postHeading}}</h1>
+                <p>{{post.postSubHeading}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="articles" class="viewButton">Read More <i class="bi bi-arrow-right"></i></a>
+</div>
